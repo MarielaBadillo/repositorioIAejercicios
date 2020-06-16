@@ -1,0 +1,3 @@
+Ejecucion del programa en prolog:
+
+inicio.

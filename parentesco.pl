@@ -1,5 +1,3 @@
-
-
 hermanos(Pa,Pb) :- Pa \== Pb, padres(Pa,X),padres(Pb,X).
 primos(Pa,Pb) :- padres(Pa,X),padres(Pb,Y),hermanos(X,Y).
 abuelos(Pa,Pb) :- padres(Pa,Y),padres(Y,Pb).
